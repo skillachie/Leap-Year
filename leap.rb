@@ -1,9 +1,14 @@
 puts 'Enter  Starting Year'
-year_min = gets.chomp
+
+year_min = gets.chomp  # gets starting year from user
+
 puts 'Enter Ending Year'
-year_max = gets.chomp
+
+year_max = gets.chomp # gets ending year from user
 year = year_min.to_i
 count = 0
+
+
 while year < year_max.to_i do
 
 year
@@ -24,4 +29,5 @@ rem3 = year%4
 		end
 	end
 end
-puts "Total amount #{count}"
+puts "Total amount #{count}" # Ouputs total amount of leap years 
+			     # For specified period	
